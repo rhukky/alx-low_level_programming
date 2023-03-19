@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
 *main - prints alphabet in lower case except q and e
 *
@@ -16,7 +18,7 @@ int main(void)
 	{
 		if (i != e && i != q)
 			putchar(i);
-	putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
