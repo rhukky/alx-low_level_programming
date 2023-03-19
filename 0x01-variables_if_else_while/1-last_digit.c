@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- *main -check if the last digit of a number is greater than 5, is 0, is less than 6 and not 0
+ *main -check if the last digit of a number is greater than 5,is 0,<6 && !0
  *
- *Return:0 (success)
+ *Return:0 means success
  */
 int main(void)
 {
@@ -27,7 +27,7 @@ int main(void)
 	}
 	else
 	{
-		printf(" %d\n", n);
+		printf(" %d\n");
 	}
 	return (0);
 }
